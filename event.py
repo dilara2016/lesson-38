@@ -1,7 +1,7 @@
 from tkinter import*
 window=Tk()
 window.title('Event handler')
-window.geometry("100x100")
+window.geometry("200x200")
 def handle_keypress(event):
     """Print the character associated to the key pressed"""
     print(event.chair)
