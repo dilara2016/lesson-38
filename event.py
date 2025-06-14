@@ -8,7 +8,7 @@ def handle_keypress(event):
 window.bind("<Key>", handle_keypress)
 def handle_click(event):
         print("dilara has clicked the button")
-button = Button(text="Click me!")
+button = Button(text="press me")
 button.pack()
 button.bind("<Button-1>", handle_click)
 window.mainloop()
